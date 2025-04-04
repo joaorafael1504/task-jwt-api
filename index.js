@@ -6,7 +6,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://jrafael1504:H47miVoyixr9IiIf@api.rizeigl.mongodb.net/?retryWrites=true&w=majority&appName=API')
+mongoose.connect('mongodb+srv://email:H47miVoyixr9IiIf@api.rizeigl.mongodb.net/?retryWrites=true&w=majority&appName=API')
     .then(() => {
         console.log('Conectado ao MongoDB Atlas');
     })
