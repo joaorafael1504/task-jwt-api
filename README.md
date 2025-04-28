@@ -63,7 +63,7 @@ A API estará rodando em `http://localhost:3000`
 - `GET /tasks/no-owner` → Lista tarefas sem dono.
 - `PUT /tasks/:id/assign` → Atribui uma tarefa a um usuário.
 
-- ## Autor
+## Autor
 
 Desenvolvido por João Rafael.
 
